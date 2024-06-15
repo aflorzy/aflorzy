@@ -23,13 +23,22 @@
     "@types/jasmine": "~5.1.0",
     "@types/node": "^18.18.0",
     "angular-eslint": "18.0.1",
+    "autoprefixer": "^10.4.19",
     "eslint": "^9.3.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "postcss": "^8.4.38",
+    "prettier": "^3.3.2",
+    "stylelint": "^16.6.1",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-prettier": "^5.0.0",
+    "tailwindcss": "^3.4.4",
     "typescript": "~5.4.2",
     "typescript-eslint": "8.0.0-alpha.20"
   },
@@ -47,12 +56,24 @@
         "hash": "18168400278403753650"
       },
       {
+        "file": ".prettierrc",
+        "hash": "15435623693488743813"
+      },
+      {
+        "file": ".stylelintrc.json",
+        "hash": "3593688863813945646"
+      },
+      {
         "file": ".vscode/extensions.json",
         "hash": "5331566439708925252"
       },
       {
         "file": ".vscode/launch.json",
         "hash": "17038929134016848735"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "8501080483488551775"
       },
       {
         "file": ".vscode/tasks.json",
@@ -72,15 +93,15 @@
       },
       {
         "file": "eslint.config.js",
-        "hash": "10062476030763761652"
+        "hash": "18085612880848345735"
       },
       {
         "file": "package-lock.json",
-        "hash": "16005459536649312607"
+        "hash": "14198168043661353842"
       },
       {
         "file": "package.json",
-        "hash": "16496097535224318340"
+        "hash": "15187813976926671533"
       },
       {
         "file": "public/favicon.ico",
@@ -92,7 +113,7 @@
       },
       {
         "file": "src/app/app.component.html",
-        "hash": "5625725754865452477"
+        "hash": "2260443417687817315"
       },
       {
         "file": "src/app/app.component.scss",
@@ -104,7 +125,7 @@
       },
       {
         "file": "src/app/app.component.ts",
-        "hash": "8880301094038816316"
+        "hash": "13191804296946714508"
       },
       {
         "file": "src/app/app.config.server.ts",
@@ -119,8 +140,56 @@
         "hash": "12397496131277534773"
       },
       {
+        "file": "src/app/components/footer/footer.component.html",
+        "hash": "3627583786224210596"
+      },
+      {
+        "file": "src/app/components/footer/footer.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/components/footer/footer.component.spec.ts",
+        "hash": "6523126951382397383"
+      },
+      {
+        "file": "src/app/components/footer/footer.component.ts",
+        "hash": "8488720540416350351"
+      },
+      {
+        "file": "src/app/components/layout/layout.component.html",
+        "hash": "15230988968698741989"
+      },
+      {
+        "file": "src/app/components/layout/layout.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/components/layout/layout.component.spec.ts",
+        "hash": "6245111748030022197"
+      },
+      {
+        "file": "src/app/components/layout/layout.component.ts",
+        "hash": "5394104088799024550"
+      },
+      {
+        "file": "src/app/components/navbar/navbar.component.html",
+        "hash": "10959333029161867134"
+      },
+      {
+        "file": "src/app/components/navbar/navbar.component.scss",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/components/navbar/navbar.component.spec.ts",
+        "hash": "14913797552671527316"
+      },
+      {
+        "file": "src/app/components/navbar/navbar.component.ts",
+        "hash": "1207155286193788440"
+      },
+      {
         "file": "src/index.html",
-        "hash": "16586153771406080380"
+        "hash": "464706515436964682"
       },
       {
         "file": "src/main.server.ts",
@@ -132,7 +201,11 @@
       },
       {
         "file": "src/styles.scss",
-        "hash": "5195668842064076916"
+        "hash": "2866083945719690482"
+      },
+      {
+        "file": "tailwind.config.ts",
+        "hash": "15643387376275677895"
       },
       {
         "file": "tsconfig.app.json",
